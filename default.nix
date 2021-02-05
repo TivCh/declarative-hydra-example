@@ -19,8 +19,7 @@
             "inputs": {
                 "src": { "type": "git", "value": "git://github.com/TivCh/declarative-hydra-example.git", "emailresponsible": false },
                 "nixpkgs": { "type": "git", "value": "git://github.com/NixOS/nixpkgs.git release-20.09", "emailresponsible": false },
-                "ssh": { "type": "path", "value": "/root/.ssh", "emailresponsible": false },
-                "nixops": { "type": "path", "value": "/root/.nixops", "emailresponsible": false }
+                "ssh": { "type": "path", "value": "/root/.ssh", "emailresponsible": false }
             }
         }
     }
