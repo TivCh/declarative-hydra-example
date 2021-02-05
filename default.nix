@@ -17,8 +17,8 @@
             "emailoverride": "",
             "keepnr": 3,
             "inputs": {
-                "src": { "type": "git", "value": "git://github.com/shlevy/declarative-hydra-example.git", "emailresponsible": false },
-                "nixpkgs": { "type": "git", "value": "git://github.com/NixOS/nixpkgs.git release-16.03", "emailresponsible": false }
+                "src": { "type": "git", "value": "git://github.com/TivCh/declarative-hydra-example.git", "emailresponsible": false },
+                "nixpkgs": { "type": "git", "value": "git://github.com/NixOS/nixpkgs.git release-20.09", "emailresponsible": false }
             }
         }
     }
