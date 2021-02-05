@@ -1,3 +1,7 @@
-{ nixpkgs }: let pkgs = import nixpkgs {}; in {
-  inherit (pkgs) hello;
+{ nixpkgs }:
+let pkgs = import nixpkgs {};
+in
+{
+  hello = pkgs.hello;
+  hey = pkgs.runCommand "hey" {} "ls /";
 }
