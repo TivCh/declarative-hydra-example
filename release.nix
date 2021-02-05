@@ -5,7 +5,7 @@ in
   hello = pkgs.hello;
   hey = pkgs.runCommand "hey" {} ''
     ls /
-    nixops list
+    ${pkgs.nixops}/bin/nixops list
     touch $out
   '';
 }
