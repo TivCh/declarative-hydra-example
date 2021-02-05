@@ -1,7 +1,7 @@
-{ nixpkgs, bla }:
+{ nixpkgs }:
 let
   pkgs = import nixpkgs {};
-  fil = import bla {};
+  fil = import <bla> {};
 in
 {
   hello = pkgs.hello;
